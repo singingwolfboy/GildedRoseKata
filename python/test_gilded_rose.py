@@ -151,7 +151,6 @@ class GildedRoseUpdateQualityTest(unittest.TestCase):
         self.assertEqual(self.sulfuras.sell_in, 1)
         self.assertEqual(self.sulfuras.quality, 80)
 
-    @unittest.expectedFailure
     def test_quality_conjured(self):
         self.assertEqual(self.conjured.quality, 10)
         self.assertEqual(self.conjured.sell_in, 2)
